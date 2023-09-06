@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 20% 35%;
+  justify-content: center;
+  align-content: center;
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+}
+section {
+  background-color: hsl(217, 19%, 24%);
+  width: 34.375rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 8px;
+  font-family: inherit;
+}
+h3 {
+  color: hsl(150, 100%, 66%);
+  font-size: 1.125rem;
+  margin: 5% auto;
+}
+h2 {
+  font-size: 1.75rem;
+  margin: 2% 20%;
+  color: rgba(255, 255, 255, 0.589);
+}
+button {
+  background-color: hsl(150, 100%, 66%);
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  margin: 3% 45%;
+  border: none;
+}
